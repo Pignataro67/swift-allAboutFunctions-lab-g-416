@@ -135,10 +135,11 @@ print(whatHeroSays())
  */
 // write your code here
 
+func returnNumber() -> Int{
+    return 100
+}
 
-
-
-
+print(returnNumber())
 
 /*: question12
  ### 12. Create a function that takes in a characters name. This function will return back a `String` as follows: "To infinity and beyond, <character name>!". The character name should be returned uppercased.
