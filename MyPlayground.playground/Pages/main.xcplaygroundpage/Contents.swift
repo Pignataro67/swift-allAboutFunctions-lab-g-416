@@ -124,7 +124,11 @@ madLibs(noun: "cows", preposition: "for", charName: "Pablo")
  */
 // write your code here
 
+func whatHeroSays() -> String{
+    return "Buzz Lightyear to the rescue!"
+}
 
+print(whatHeroSays())
 
 
 
