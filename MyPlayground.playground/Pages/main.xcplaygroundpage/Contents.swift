@@ -87,11 +87,11 @@ statement(bandName: "Pearl Jam", value: 1)
 //
 //badFavoriteBand("The Beatles", 2)
 
+func badFavoriteBand(_ bandName: String, _ position: Int) {
+    print("My #\(position) favorite band is \(bandName).")
+}
 
-
-
-
-
+badFavoriteBand("Alice in Chains", 3)
 
 /*: question8
  ### 8. This code is broken, too. Assume the call to the function is correct. What's broken about the function definition? Can you fix it? Uncomment the code below before starting.
