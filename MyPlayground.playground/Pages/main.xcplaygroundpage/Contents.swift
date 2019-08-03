@@ -102,11 +102,11 @@ badFavoriteBand("Alice in Chains", 3)
 //
 //alsoBadFavoriteBand(bandName: "Blink-182", position: 42)
 
+func alsoBadFavoriteBand(bandName: String, position: String) {
+    print("My #\(position) favorite band is \(bandName)")
+}
 
-
-
-
-
+alsoBadFavoriteBand(bandName: "NIN", position: "4")
 
 /*: question9
  ### 9. Let's play Mad Libs! Create a function called `madLib`. It should take three parameters: A character name, a noun, and a preposition, and print out the line "To <noun> and <preposition>, <character name>!" to the console. Don't forget to call your function to test it out!
