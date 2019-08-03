@@ -72,10 +72,14 @@ statement(value: 99)
  */
 // write your code here
 
+func statement(bandName: String, value: Int) {
+    print("My #\(value) favorite band is \(bandName).")
+}
 
 
 
 
+statement(bandName: "U2", value: 2)
 
 /*: question7
  ### 7. The code below is broken. Can you identify which line has an error and fix it so that it works again? Uncomment the code below before starting.
