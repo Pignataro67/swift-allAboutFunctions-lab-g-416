@@ -31,16 +31,18 @@ func frozenAgain() {
    print(phrase)
 }
 
+frozenAgain()
+
 /*: question3
  ### 3. Write a function that takes in a character's name as an argument (it can be any character from anything). What should the type of that argument be? Print the message "My favorite character is <character name>." to the screen.
  */
 // write your code here
 
+func favoriteCharacter(name: String) {
+    print("My favorite character is \(name).")
+}
 
-
-
-
-
+favoriteCharacter()
 
 /*: question4
  ### 4. Call the function you wrote in Question 3 using a constant you define. Then call it using a variable. Change the value of the variable, and call it again. What do you see in the console?
