@@ -42,7 +42,7 @@ func favoriteCharacter(name: String) {
     print("My favorite character is \(name).")
 }
 
-favoriteCharacter()
+favoriteCharacter(name: "Optimus Prime")
 
 /*: question4
  ### 4. Call the function you wrote in Question 3 using a constant you define. Then call it using a variable. Change the value of the variable, and call it again. What do you see in the console?
