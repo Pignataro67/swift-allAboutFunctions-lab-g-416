@@ -15,12 +15,9 @@
  */
 // write your code here
 
-
-
-
-
-
-
+func frozen() {
+    print("Let it go!")
+}
 
 /*: question2
  ### 2. Write a function named `frozenAgain` that takes no arguments. Declare a constant in the body of the function, and assign it the value "Let it go!". Then print it to the console.
