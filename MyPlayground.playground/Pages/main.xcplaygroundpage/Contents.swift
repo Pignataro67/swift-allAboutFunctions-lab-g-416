@@ -49,11 +49,12 @@ favoriteCharacter(name: "Optimus Prime")
  */
 // write your code here
 
-
-
-
-
-
+let myChar = "Bumbuble Bee"
+favoriteCharacter(name: myChar)
+var myChar2 = "Predaking"
+favoriteCharacter(name: myChar2)
+myChar2 = "Sky Lynx"
+favoriteCharacter(name: myChar2)
 
 /*: question5
  ### 5. Write a function that takes an integer as an argument and prints the string "I got <number> problems but Swift ain't one" to the console.
