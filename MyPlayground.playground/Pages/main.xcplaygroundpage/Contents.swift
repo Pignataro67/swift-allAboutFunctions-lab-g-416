@@ -19,16 +19,17 @@ func frozen() {
     print("Let it go!")
 }
 
+frozen()
+
 /*: question2
  ### 2. Write a function named `frozenAgain` that takes no arguments. Declare a constant in the body of the function, and assign it the value "Let it go!". Then print it to the console.
  */
 // write your code here
 
-
-
-
-
-
+func frozenAgain() {
+   let phrase = "Let it go!"
+   print(phrase)
+}
 
 /*: question3
  ### 3. Write a function that takes in a character's name as an argument (it can be any character from anything). What should the type of that argument be? Print the message "My favorite character is <character name>." to the screen.
