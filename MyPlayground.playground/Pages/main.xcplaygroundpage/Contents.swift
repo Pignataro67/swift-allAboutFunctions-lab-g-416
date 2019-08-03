@@ -146,8 +146,8 @@ print(returnNumber())
  */
 // write your code here
 
+func whatHeroAlsoSays(charName: String) -> String{
+    return "To infinity and beyond, \(charName.uppercased())!"
+}
 
-
-
-
-
+print(whatHeroAlsoSays(charName: "Fred"))
