@@ -49,7 +49,7 @@ favoriteCharacter(name: "Optimus Prime")
  */
 // write your code here
 
-let myChar = "Bumbuble Bee"
+let myChar = "Bumble Bee"
 favoriteCharacter(name: myChar)
 var myChar2 = "Predaking"
 favoriteCharacter(name: myChar2)
