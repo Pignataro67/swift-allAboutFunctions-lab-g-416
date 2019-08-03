@@ -113,11 +113,11 @@ alsoBadFavoriteBand(bandName: "NIN", position: "4")
  */
 // write your code here
 
+func madLibs(noun: String, preposition: String, charName: String) {
+    print("To \(noun) and \(preposition), \(charName)!")
+}
 
-
-
-
-
+madLibs(noun: "cows", preposition: "for", charName: "Pablo")
 
 /*: question10
  ### 10. Create a function that takes no arguments and returns the string "Buzz Lightyear to the rescue!"
