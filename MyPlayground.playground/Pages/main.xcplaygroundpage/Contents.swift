@@ -61,12 +61,11 @@ favoriteCharacter(name: myChar2)
  */
 // write your code here
 
+func statement(value: Int) {
+    print("I got \(value) problems but Swift ain't one")
+}
 
-
-
-
-
-
+statement(value: 99)
 
 /*: question6
  ### 6. Write a function that takes two arguments, the name of a band (a `String`) and a number (an `Int`). It should print the message "My #<number> favorite band is <band>." to the console.
