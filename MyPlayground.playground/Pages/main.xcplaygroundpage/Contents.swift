@@ -130,10 +130,6 @@ func whatHeroSays() -> String{
 
 print(whatHeroSays())
 
-
-
-
-
 /*: question11
  ### 11. Create a function that takes no arguments and returns any number.
  */
